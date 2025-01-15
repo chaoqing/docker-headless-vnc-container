@@ -1,5 +1,22 @@
 ## Changelog of the Docker headless VNC images
 
+### Version 2.0.4:
+* fix passwordless startup crash ([#201](https://github.com/ConSol/docker-headless-vnc-container/issues/201)))
+
+### Version 2.0.3:
+* update Kubernetes Manifest example ([#197](https://github.com/ConSol/docker-headless-vnc-container/issues/197)))
+
+### Version 2.0.2:
+* fix not exposing VNC port ([#165](https://github.com/ConSol/docker-headless-vnc-container/issues/165)))
+
+### Version 2.0.1:
+* add passwordless vnc option
+* fix chrome crash due to shm size
+
+### Version 2.0.0:
+* migrated ubuntu to debian 11
+* migrated centos 7 to rocky linux 9
+
 ### Version 1.4.0:
 * added Github issue and pull request templates
 * added install script for custom fonts ([#83](https://github.com/ConSol/docker-headless-vnc-container/issues/83)))
